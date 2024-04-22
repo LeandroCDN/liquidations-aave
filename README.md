@@ -31,3 +31,9 @@ A MVP project to make liquidations in Aave protocol
 3. Update bot to search accounts in aave protocol.
 4. Calculate profits vs gas cost
 5. Flash-Loan contracts
+
+# GOLS
+
+- get all debt address (addresses folder).
+- create a contract to iterate liquidateCall(testing status).
+- Discover the lenght in address[] works in Sindicate.

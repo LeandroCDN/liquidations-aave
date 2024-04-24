@@ -3,10 +3,7 @@ import { ethers } from 'ethers';
 import axios from 'axios';
 
 import { NextResponse } from "next/server";
-
-
-
-
+  
 export async function GET(req: any, { params }: any) {
   try {
     const poolContract = await createPoolContract();
